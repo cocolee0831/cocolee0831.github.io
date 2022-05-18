@@ -1,0 +1,45 @@
+p {
+    color: red;
+  }
+  h1{
+    color: red;
+  }
+  html {
+    font-size: 20px; /* px means 'pixels': the base font size is now 10 pixels high  */
+    font-family: placeholder: this should be the rest of the output you got from Google fonts
+  }
+  h1 {
+    font-size: 60px;
+    text-align:center;
+  }
+  
+  p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+  html {
+    background-color: 	#FFFFCE;
+  }
+  body {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #eac38b;
+    padding: 0px 30px 50px 20px;//上右下左
+    border: 5px solid black;//這只是在身體的所有側面設置了一個 5 像素寬的純黑色邊框
+    border-left:7px yellow dotted;　
+  }
+ 
+
+ 
+
+  h1 {
+    margin: 0;//你可能已經註意到身體頂部有一個可怕的缺口。發生這種情況是因為瀏覽器對 <h1> (en-US) 元素（以及其他元素）應用了一些默認樣式，但我們希望即使是沒有樣式的網頁也具有基本的可讀性。為了消除差距 來覆蓋默認樣式。
+    padding: 20px 0;//我們將標題的頂部和底部填充設置為 20 像素
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;//一像素值設置陰影與文本的水平偏移量——它移動了多遠：負值應該將它移動到左邊。 二陰影與文本的垂直偏移量——在本例中，它向下移動了多遠；負值應該向上移動 三陰影的模糊半徑——值越大陰影越模糊 四陰影的基色。
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
